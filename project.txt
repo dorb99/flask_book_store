@@ -1,0 +1,28 @@
+"""
+Goal:
+    To create and code a full server, with endpoints and database and docs and to deploy it
+ 
+tasks:
+    1- Organized and structured server
+    2- To have a full database with validations and full CRUD operations
+    3- Use an external api
+    4- Security - use jwt and cookies, also use bcrypt and cors
+    5- error handled
+    6- rate limiting
+    7- User interface
+    8- Documentation for the endpoints and the database
+    9- Deploy the server
+ 
+Idea:
+------ (Book store)
+ 
+tech:
+-----
+ 
+structure:
+-----
+ 
+Steps:
+1- setting a flask server
+2- create a first blueprint with crud routes.
+"""
