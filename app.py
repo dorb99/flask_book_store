@@ -20,8 +20,7 @@ def start_app():
         
         register_error_handlers(app)
                 
-        config_data = load_config()
-        app.config.update(config_data)
+        app.config.update(load_config())
         
         cors = CORS(app, resources={r"/api/*": {"origins": app.config['CLIENT_URL']}})
           

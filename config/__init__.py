@@ -29,6 +29,6 @@ def load_config():
         "SECRET_KEY": os.getenv("SECRET_KEY", "default_secret"),
         "DEBUG": os.getenv("DEBUG", "false").lower() == "true",
         "CLIENT_URL": os.getenv("CLIENT_URL", "*"),
-        "PORT": int(config.get("PORT", 5000)),
-        "HOST": config.get("HOST", "0.0.0.0"),
+        "PORT": int(os.getenv("PORT", 5000)),
+        "HOST": os.getenv("HOST", "0.0.0.0"),
     }
