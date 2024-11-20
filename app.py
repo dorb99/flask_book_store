@@ -65,4 +65,4 @@ def start_app():
 if __name__ == '__main__':
     app = start_app()
     logging.info("Starting Flask app")
-    app.run(debug=app.config["DEBUG"])
+    app.run(debug=app.config["DEBUG"], port=app.config["PORT"], host=app.config["HOST"])
